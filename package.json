@@ -1,0 +1,20 @@
+{
+  "name": "e2e-encrypted-messaging",
+  "version": "1.0.0",
+  "description": "Messaging app in Node, where messages are E2E encrypted with public keys from members part of the chat room.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ellartdev",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "yargs": "^16.0.3"
+  }
+}
